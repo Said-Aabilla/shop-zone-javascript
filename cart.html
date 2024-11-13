@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ShopZone - Cart</title>
+    <link rel="stylesheet" href="css/cart.css">
+</head>
+<body>
+    <!-- Cart icon with navigation to product page -->
+    <header>
+        <a href="index.html" class="nav-link">Back to Products</a>
+        <h1>Shopping Cart</h1>
+    </header>
+    
+    <!-- Cart items list -->
+    <div id="cart-items"></div>
+    
+    <!-- Total amount display and checkout button -->
+    <p>Total: $<span id="cart-total">0.00</span></p>
+    <button onclick="checkout()" class="checkout-btn">Checkout</button>
+
+    <!-- JS script for managing cart items and actions -->
+    <script src="js/cart.js"></script>
+</body>
+</html>
